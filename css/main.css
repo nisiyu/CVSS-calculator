@@ -3,6 +3,7 @@ ul,li{
     display:inline-block;
     list-style:none;
 }
+
 div.content{
     position:absolute;
     width:100%;
@@ -10,7 +11,34 @@ div.content{
     background-color: #53a3ff;
     margin:0 auto;
     left:0;
+    top:0;
     bottom:100px;
+}
+
+div.left-items{
+    /*position:relative;
+    border:solid 1px;
+    width:10px;
+    height:10px;*/
+}
+div.exploit-metrics input{
+    display:inline-block;
+    border:1px solid transparent;
+    border-color:#cccccc;
+    background-color: white;
+    line-height: 2;
+}
+
+div.exploit-metrics input:hover{
+    background-color: #cccccc;
+    transition: 100ms;
+}
+
+input[type="button"]:nth-child(2){
+    border-radius: 15% 0 0 15%;
+}
+input[type="button"]:last-child{
+    border-radius: 0 15% 15% 0;
 }
 
 div.fix-tail {
@@ -44,9 +72,9 @@ div.fix-tail li{
     line-height:64px;
     text-align: center;
     border-radius: 100%;
-    background-color:white;
+    background-color:orange;
     margin:0 20px;
-    color:orange;
+    color: #ffdda7;
     font-weight: bold;
     transition:100ms;
 }

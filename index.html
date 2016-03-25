@@ -7,12 +7,41 @@
 </head>
 <body>
 <div class="content">
-
+    <div class="left-items">
+        <div class="exploit-metrics">
+            <h3>AV Access Vector</h3>
+            <input type="button" name="AV" value="Network"
+            /><input type="button" name="AV" value="Adjacent"
+            /><input type="button" name="AV" value="Local"
+            /><input type="button" name="AV" value="Physical"/>
+        </div>
+        <div class="exploit-metrics">
+            <h3>AC Access Complexity</h3>
+            <input type="button" name="AC" value="Low"
+                    /><input type="button" name="AC" value="High"/>
+        </div>
+        <div class="exploit-metrics">
+            <h3>PR Privilege Required</h3>
+            <input type="button" name="PR" value="None"
+                    /><input type="button" name="PR" value="Low"
+                /><input type="button" name="PR" value="High"/>
+        </div>
+        <div class="exploit-metrics">
+            <h3>UI User Interaction</h3>
+            <input type="button" name="UI" value="None"
+                    /><input type="button" name="UI" value="Required"/>
+        </div>
+        <div class="exploit-metrics">
+            <h3>S Scope</h3>
+            <input type="button" name="S" value="Unchanged"
+                    /><input type="button" name="S" value="Changed"/>
+        </div>
+    </div>
 </div>
 <div class="fix-tail">
     <div class="icon-container">
     <ul>
-        <li class="highlight">CVSS
+        <li class="cvss">CVSS
         </li><li>
         </li><li>
         </li>
