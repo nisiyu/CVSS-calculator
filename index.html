@@ -11,31 +11,31 @@
         <h2>Exploit Metrics</h2>
         <div class="exploit-metrics">
             <h3>AV Access Vector</h3>
-            <input type="button" name="AV" value="Network"
+            <input type="button" name="AV" value="Network" class="clicked"
             /><input type="button" name="AV" value="Adjacent"
             /><input type="button" name="AV" value="Local"
             /><input type="button" name="AV" value="Physical"/>
         </div>
         <div class="exploit-metrics">
             <h3>AC Attack Complexity</h3>
-            <input type="button" name="AC" value="Low"
+            <input type="button" name="AC" value="Low"  class="clicked"
                     /><input type="button" name="AC" value="High"/>
         </div>
         <div class="exploit-metrics">
             <h3>PR Privilege Required</h3>
-            <input type="button" name="PR" value="None"
+            <input type="button" name="PR" value="None"  class="clicked"
                     /><input type="button" name="PR" value="Low"
                 /><input type="button" name="PR" value="High"/>
         </div>
         <div class="exploit-metrics">
             <h3>UI User Interaction</h3>
-            <input type="button" name="UI" value="None"
+            <input type="button" name="UI" value="None"  class="clicked"
                     /><input type="button" name="UI" value="Required"/>
         </div>
         <h2>Scope</h2>
         <div class="exploit-metrics">
             <h3>S Scope</h3>
-            <input type="button" name="S" value="Unchanged"
+            <input type="button" name="S" value="Unchanged"  class="clicked"
                     /><input type="button" name="S" value="Changed"/>
         </div>
         <h2>Impact Metrics</h2>
@@ -60,7 +60,7 @@
     </div>
     <div class="strip">
         <div class="rectangle">
-
+            <h4>0</h4>
         </div>
     </div>
 </div>
@@ -75,6 +75,7 @@
     </div>
 </div>
 <script src="./js/jquery-2.2.2.min.js"></script>
+<script src="./js/jquery-ui-1.11.4/jquery-ui.min.js"></script>
 <script src="./js/main.js"></script>
 </body>
 </html>
