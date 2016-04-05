@@ -102,24 +102,8 @@ $("input").click(function(){
         }
         return 4;
     };
-    //var lastlevel =  seglevel(lastcvss);
-    //var level = seglevel(cvss);
-    //if (lastlevel != level){
-    //    //increasing or decreasing
-    //    var j = 0;
-    //    if (lastlevel < level){
-    //        for (j = lastlevel;j < level;j++){
-    //            $("div.rectangle").animate({height:segmentperct[j],backgroundColor: segcolor[j+1]});
-    //        }
-    //    }
-    //    else{
-    //        for (j = lastlevel;j > level; j--){
-    //            $("div.rectangle").animate({height:segmentperct[j-1],backgroundColor: segcolor[j]});
-    //        }
-    //    }
-    //
-    //}
-    $("div.rectangle").animate({height:percentage + "%", backgroundColor: segcolor[seglevel(cvss)]});
+    
+    $("div.rectangle").animate({height:percentage + "%", backgroundColor: segcolor[seglevel(cvss)]},slow);
     $("div.rectangle h4").text(cvss);
 });
 
