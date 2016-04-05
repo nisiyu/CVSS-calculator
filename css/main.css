@@ -38,7 +38,7 @@ div.strip{
     height:700px;
     margin-left:-150px;
     top:60px;
-    left:40%;
+    left:500px;
 }
 div.rectangle{
     position:absolute;
@@ -49,6 +49,7 @@ div.rectangle{
     left:50%;
     margin-left:-50px;
     background-color: green;
+    box-shadow:5px 5px 5px #ccc;
 }
 div.rectangle h4{
     width:50px;
@@ -67,6 +68,16 @@ input[type="button"]{
     border-color:#cccccc;
     background-color: white;
     line-height: 2;
+}
+
+div.exploit-metrics{
+    opacity:0.6;
+    transition:500ms;
+}
+
+div.exploit-metrics:hover{
+    opacity:1;
+    transition:500ms;
 }
 
 div.exploit-metrics input:hover{
