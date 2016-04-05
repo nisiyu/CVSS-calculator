@@ -51,15 +51,28 @@ div.rectangle{
     background-color: green;
     box-shadow:5px 5px 5px #ccc;
 }
-div.rectangle h4{
-    width:50px;
-    margin-left:-25px;
-    position:absolute;
-    bottom:0;
-    left:50%;
-    text-align:center;
-    color:black;
+div.rectangle h4 {
+    width: 50px;
+    margin-left: -25px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    text-align: center;
+    color: black;
+}
 
+div.explanation {
+    position:absolute;
+    width:500px;
+    height:500px;
+    margin-top:40px;
+    top:0;
+    left:700px;
+    color:white;
+}
+
+div.explanation h2 {
+    margin-top:0;
 }
 
 input[type="button"]{
